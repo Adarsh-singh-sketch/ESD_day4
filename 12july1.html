@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurveyForm</title>
+    <link rel="stylesheet" href="12july1.css">
+</head>
+<body>
+    <h1>Welcome To The Survey</h1>
+    <div>
+    <p style="text-align: center;">#Personal Info.#</p>
+    <h3 style="text-align: center;">!!!Please fill all the details carefully!!!</h3>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="adcdef" required> &nbsp;&nbsp;
+        <label for="password" >Password:</label>
+        <input type="password" id="password" placeholder="***********" required><br><br>
+        <label for="email">Email Id:</label>
+        <input type="email" id="email" placeholder="abc@gmail.com" required><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="XX"><br><br>
+        <label for="Role">Which option best describe your current role?</label>
+        <select id="Role">
+            <option value="frontend">Front-end</option>
+            <option value="backend">Back-end</option>
+            <option value="fullstack">Full-Stack</option>
+            <option value="database">Database-develp.</option>
+        </select><br><br>
+        <label for="recommend">How likely would you recommend this course to others?</label><br>
+        <input type="radio" name="recommend" value="definitly">definitly <br>
+            <input type="radio" name="recommend" value="Maybe">Maybe <br>
+            <input type="radio" name="recommend" value="might">might<br>
+            <input type="radio" name="recommend" value="Not sure">Not sure <br>
+        </label><br>
+        <label for="cons">What do you like about the course?</label>
+        <select id="cons">
+            <option>Good</option>
+            <option>Better</option>
+            <option>best</option>
+        </select><br><br>
+        <label for="improvement">Improvements required for future?<br>(Check all that apply)</label><br>
+        <input type="checkbox" value="Frontend">Frontend <br>
+        <input type="checkbox" value="Backend">Backend<br>
+        <input type="checkbox" value="DataVisual">Data Visual<br><br>
+        <input type="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset"><br>
+    </form>
+    </div>
+</body>
+</html>
